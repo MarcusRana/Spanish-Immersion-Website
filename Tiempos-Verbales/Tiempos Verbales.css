@@ -1,0 +1,16 @@
+#title {
+    text-align: center;
+    color: green; 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+Table, th, td {
+    border: 1px solid black
+}
+
+th, td {
+    text-align: center;
+}
