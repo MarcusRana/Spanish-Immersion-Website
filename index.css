@@ -57,6 +57,11 @@
     background-color: #f3f3f3
 }
 
+.top-of-page {
+    text-align: center;
+    border: solid black;
+}
+
 body {
     background: #4f85bb;
     background: -moz-linear-gradient(-45deg, #4f85bb 0%, #4f85bb 100%);

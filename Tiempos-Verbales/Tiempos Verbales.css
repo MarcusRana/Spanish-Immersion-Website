@@ -3,12 +3,17 @@
     color: green; 
 }
 
+body {
+    width: 900px;
+}
+
 table {
     border-collapse: collapse;
 }
 
-Table, th, td {
-    border: 1px solid black
+td {
+    border: 1px solid black;
+    width: 250px;
 }
 
 th, td {
