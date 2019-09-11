@@ -1,0 +1,36 @@
+#title {
+    width: 100%;
+    text-align: center;
+    border: solid black 2px;
+    background: #4f85bb
+}
+
+.description {
+    text-align: left;
+}
+
+.table {
+    text-align: center;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+caption {
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background: #2A323B;
+}
+
+tr:nth-child(even) {
+    background: #8EAAC6;
+}

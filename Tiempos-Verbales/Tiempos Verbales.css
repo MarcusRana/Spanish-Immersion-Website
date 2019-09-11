@@ -1,0 +1,25 @@
+#title {
+    text-align: center;
+    color: green; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+    
+}
+
+th {
+    font-size: 25px;
+}
+
+td {
+    border: 1px solid black;
+    width: 250px;
+    font-size: 20px;
+}
+
+th, td {
+    text-align: center;
+    padding: 15px;
+}
