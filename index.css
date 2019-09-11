@@ -1,5 +1,4 @@
 .dropdown {
-    width: 100%;
     height: 100px;
     font-size: 23px;
     color: blue;
@@ -14,17 +13,19 @@
     padding: 0px 20px;
 }
 
-.dropdown ul {
+.list-1 {
     float: left;
+    background-color: grey;
+    width: 1540px;
 }
 
-.dropdown ul li {
+.list-1 li {
     float: left;
     list-style: none;
     position: relative;
 }
 
-.dropdown ul li a {
+.list-1 li a {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -33,33 +34,80 @@
     text-decoration: none;
 }
 
-.dropdown ul li ul {
+.list-1 li {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 24px;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.list-1 li:hover ul {
+    display: block;
+}
+
+.list-2 {
     display: none;
     position: absolute;
     background-color: white;
     padding: 10px;
 }
 
-.dropdown ul li:hover ul {
-    display: block;
-}
-
-.dropdown ul li ul li a {
+.list-2 li a {
     padding: 8px 14px;
 }
 
-.dropdown ul li ul li {
+.list-2 li {
     width: 180px;
 }
 
-.dropdown ul li ul li a:hover {
+.list-2 li:hover {
     padding: 8px 14px;
-    background-color: #f3f3f3
+    background-color: grey;
+    height: 36px;
+}
+
+.list-2 li {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.list-2 li:hover ul li {
+    display: block;
+    position: relative;
+    left: 160px;
+    top: -40px;
+    background-color: white;
+}
+
+.list-3 li {
+    display: none;
+    position: relative;
+    left: 20px;
+    background-color: white;
+}
+
+.list-3 li:hover {
+    display: block;
+    position: relative;
+    left: 20px;
+    background-color: white;
 }
 
 .top-of-page {
     text-align: center;
     border: solid black;
+}
+
+.Title {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 36px;
+    color: #FFFACD;
+    font-style: italic;
 }
 
 body {
