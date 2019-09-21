@@ -16,7 +16,7 @@
 .list-1 {
     float: left;
     background-color: grey;
-    width: 1540px;
+    width: 1500px;
 }
 
 .list-1 li {
@@ -79,9 +79,10 @@
 .list-2 li:hover ul li {
     display: block;
     position: relative;
-    left: 160px;
+    left: 130px;
     top: -40px;
     background-color: white;
+    width: 500px;
 }
 
 .list-3 li {
@@ -96,11 +97,13 @@
     position: relative;
     left: 20px;
     background-color: white;
+    width: 300px
 }
 
 .top-of-page {
     text-align: center;
     border: solid black;
+    margin: 20px;
 }
 
 .Title {
