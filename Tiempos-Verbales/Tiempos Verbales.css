@@ -6,7 +6,6 @@
 
 table {
     float: left;
-    /* border-collapse: collapse; */
     width: 30%;
     margin: 30px;
     border: 2px solid black;
@@ -25,7 +24,6 @@ td {
     text-align: center;
     padding: 15px;
     border: 2px solid black;
-    /* background-color: #4f85bb; */
     background-color: grey;
     width: 250px;
 }
