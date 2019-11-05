@@ -46,6 +46,10 @@ table.Info {
     width: 100%;
 }
 
+div.Info {
+    border: 50px;
+}
+
 body {
     background: #303030;
     background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
