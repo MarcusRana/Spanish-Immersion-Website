@@ -53,27 +53,27 @@
     display: block;
 }
 
-.list-2 {
+.bar {
     display: none;
     position: absolute;
     background-color: white;
     padding: 8px 14px;
 }
 
-.list-2 li a {
+.bar li a {
     padding: 8px 14px;
 }
 
-.list-2 li {
+.bar li {
     width: 180px;
 }
 
-.list-2 li:hover {
+.bar li:hover {
     background-color: grey;
     height: 52px;
 }
 
-.list-2 li {
+.bar li {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
@@ -82,7 +82,7 @@
     height: 52px;
 }
 
-.list-2 li:hover ul li {
+.bar li:hover ul li {
     display: block;
     position: relative;
     left: 130px;
@@ -92,14 +92,14 @@
     height: 36px;
 }
 
-.list-3 li {
+.drop li {
     display: none;
     position: relative;
     left: 20px;
     background-color: white;
 }
 
-.list-3 li:hover {
+.drop li:hover {
     display: block;
     position: relative;
     left: 20px;
