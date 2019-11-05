@@ -4,18 +4,23 @@
     font-family: sans-serif;
 }
 
-table {
+
+/* Conjugation Tables */
+
+table.table-1,
+table.table-2,
+table.table-3 {
     float: left;
     width: 30%;
     margin: 30px;
     border: 2px solid black;
 }
 
-th {
+th.ending {
     font-size: 25px;
 }
 
-td {
+td.ending {
     font-size: 20px;
 }
 
@@ -27,6 +32,12 @@ td {
     width: 250px;
 }
 
+
+/* Information Section */
+
+
+/* Tabs */
+
 table.Tabs {
     border: 2px solid black;
     background-color: grey;
@@ -36,6 +47,13 @@ table.Tabs {
     margin-bottom: 0px;
     width: 100%;
 }
+
+th.Tabs {
+    border-right: 2px solid black;
+}
+
+
+/* Info */
 
 table.Info {
     border: 2px solid black;
@@ -48,11 +66,13 @@ table.Info {
 
 div.Info {
     border: 50px;
+    height: 100%;
 }
 
-th.Tabs {
-    border-right: 2px solid black;
-}
+td.Info {}
+
+
+/* Body */
 
 body {
     background: #303030;
