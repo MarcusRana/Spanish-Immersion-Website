@@ -17,6 +17,10 @@ Last update : 2016-10-19
     height: 25px;
 }
 
+html {
+    overflow: auto;
+}
+
 nav.bootsnav .dropdown.megamenu-fw {
     position: static;
 }
@@ -375,7 +379,7 @@ body {
     background: -moz-linear-gradient(-45deg, #4f85bb 0%, #4f85bb 100%);
     background: -webkit-linear-gradient(-45deg, #4f85bb 0%, #4f85bb 100%);
     background: linear-gradient(135deg, #4f85bb 0%, #4f85bb 100%);
-    height: 400%;
+    overflow: auto;
 }
 
 body.on-side {
@@ -1177,7 +1181,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     /* Tabs
     =================================*/
     nav.navbar.bootsnav .megamenu-content.tabbed {
-        padding-left: 0 !mportant;
+        padding-left: 0 !Important;
     }
     nav.navbar.bootsnav .tabbed>li {
         padding: 25px 0;
@@ -1531,3 +1535,5 @@ body {
     transform-origin: bottom;
     transition: transform .5s;
 }
+
+;
