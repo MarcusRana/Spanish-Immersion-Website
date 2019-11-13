@@ -71,16 +71,7 @@ nav.bootsnav .dropdown.megamenu-fw .dropdown-menu {
 /* Navbar
 =================================*/
 
-#navbar-menu {
-    border: 5px solid black;
-    padding: 10px;
-}
-
 nav.navbar.bootsnav {
-    margin-bottom: 0;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -o-border-radius: 0px;
     border-radius: 0px;
     background-color: #fff;
     border: none;
@@ -1560,13 +1551,6 @@ body {
     font-size: 56px;
 }
 
-.Home-Text p {
-    width: 50%;
-    position: relative;
-    left: 25%;
-    transform-origin: center;
-}
-
 .MainPage img {
     position: relative;
     width: 50%;
@@ -1583,12 +1567,26 @@ body {
 }
 
 .Home-Text {
+    position: relative;
     background: #fae2cb;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
     opacity: 90%;
+    left: 15%;
+    width: 70%;
 }
 
 .Home-Text p {
     text-align: center;
     font-size: 23px;
     color: black;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    transform-origin: center;
+}
+
+.Home-Text h1 {
+    position: relative;
+    left: 30%;
 }
