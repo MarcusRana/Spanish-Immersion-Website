@@ -1,3 +1,20 @@
+/* Whole page */
+
+html {
+    height: 100%;
+}
+
+
+/* Body */
+
+body {
+    background: #303030;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+}
+
+
+/* Title */
+
 #title {
     text-align: center;
     color: grey;
@@ -50,7 +67,10 @@ table.Tabs {
 
 th.Tabs {
     border-right: 2px solid black;
+    font-size: 25px;
 }
+
+td.Tabs {}
 
 
 /* Info */
@@ -69,12 +89,7 @@ div.Info {
     height: 100%;
 }
 
-td.Info {}
-
-
-/* Body */
-
-body {
-    background: #303030;
-    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+td.Info {
+    font-size: 20px;
+    height: 1000px;
 }
