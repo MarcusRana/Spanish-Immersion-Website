@@ -23,16 +23,19 @@ body {
 
 Table.header {
     align-content: center;
+    /* position: absolute; */
     margin-top: 30px;
     /* margin-bottom: 30px; */
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     padding: 20px;
-    border: 2px solid black;
     background: grey;
+    border: 2px solid black;
 }
 
-tr.header {}
+th.header {
+    font-size: 30px;
+}
 
 
 /* Conjugation Tables */
