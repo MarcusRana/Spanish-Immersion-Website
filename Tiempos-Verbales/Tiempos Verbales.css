@@ -82,11 +82,14 @@ table.Tabs {
 }
 
 th.Tabs {
-    border-right: 2px solid black;
     font-size: 25px;
 }
 
-td.Tabs {}
+th.Tabs:hover {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    background-color: #05bcfe;
+}
 
 
 /* Info */
