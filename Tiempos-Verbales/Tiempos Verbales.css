@@ -1,25 +1,108 @@
+/* Whole page */
+
+html {
+    height: 100%;
+}
+
+
+/* Body */
+
+body {
+    background: #303030;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+}
+
+
+/* Title */
+
 #title {
     text-align: center;
-    color: green; 
+    color: black;
+    font-family: sans-serif;
 }
 
-table {
-    border-collapse: collapse;
+Table.header {
+    align-content: center;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid black;
+    background: grey;
+}
+
+tr.header {}
+
+
+/* Conjugation Tables */
+
+table.table-1,
+table.table-2,
+table.table-3 {
+    float: left;
     width: 30%;
-    
+    margin: 30px;
+    border: 2px solid black;
 }
 
-th {
+th.ending {
     font-size: 25px;
 }
 
-td {
-    border: 1px solid black;
-    width: 250px;
+td.ending {
     font-size: 20px;
 }
 
-th, td {
+.ending {
     text-align: center;
     padding: 15px;
+    border: 2px solid black;
+    background-color: grey;
+    width: 250px;
+}
+
+
+/* Information Section */
+
+
+/* Tabs */
+
+table.Tabs {
+    border: 2px solid black;
+    background-color: grey;
+    position: relative;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+th.Tabs {
+    border-right: 2px solid black;
+    font-size: 25px;
+}
+
+td.Tabs {}
+
+
+/* Info */
+
+table.Info {
+    border: 2px solid black;
+    border-top: none;
+    background-color: grey;
+    margin: 0;
+    margin-top: 0px;
+    width: 100%;
+}
+
+div.Info {
+    border: 50px;
+    height: 100%;
+}
+
+td.Info {
+    font-size: 20px;
+    height: 1000px;
 }

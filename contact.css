@@ -192,9 +192,9 @@ body {
 }
 
 .MainPage h2 {
-    font-size: 1000%;
+    font-size: 750%;
     position: relative;
-    left: 25%;
+    left: 12.5%;
     font-family: 'Bree Serif', serif;
     font-weight: bold;
     color: #ffff00;
@@ -219,6 +219,11 @@ body {
 }
 
 .Home-Text h1 {
+    position: relative;
+    left: 25%;
+}
+
+.Home-Text form {
     position: relative;
     left: 25%;
 }
