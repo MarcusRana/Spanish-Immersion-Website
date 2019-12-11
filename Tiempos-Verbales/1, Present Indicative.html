@@ -9,7 +9,7 @@
         </Table>
     </div>
     <link rel='stylesheet' href='Tiempos Verbales.css' />
-    <script src='Tiemps Verbales.js'></script>
+    <script src='Tiemps Verbales.js' defer></script>
 </header>
 
 <body>
@@ -84,10 +84,10 @@
         <div>
             <table class="Tabs">
                 <tr>
-                    <th id="Tab1" class="Tabs" onclick="OpenTab1()">Informacion</th>
-                    <th id="Tab2" class="Tabs " onclick="OpenTab2()">Ejemplos</th>
-                    <th id="Tab3" class="Tabs " onclick="OpenTab3()">Verbos Irregulares</th>
-                    <th id="Tab4" class="Tabs " onclick="OpenTab4()">Ejercicios</th>
+                    <th id="Tab1" class="Tabs" onclick="OpenTab1()" data-tab-target="Tab1Content">Informacion</th>
+                    <th id="Tab2" class="Tabs" onclick="OpenTab2()" data-tab-target="Tab2Content">Ejemplos</th>
+                    <th id="Tab3" class="Tabs" onclick="OpenTab3()" data-tab-target="Tab3Content">Verbos Irregulares</th>
+                    <th id="Tab4" class="Tabs" onclick="OpenTab4()" data-tab-target="Tab4Content">Ejercicios</th>
                 </tr>
             </table>
         </div>
@@ -95,10 +95,26 @@
             <table class="Info ">
                 <tr>
                     <div class="Info ">
-                        <td class="Info ">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quasi fuga dignissimos dicta earum tempore officiis quos velit, ad, modi quas vel? Ut id eveniet, alias modi debitis cum nesciunt.
-                            </p>
-                        </td>
+                        <div class="Info ">
+                            <td class="Info ">
+                                <div class="Tab1Content" data-tab-content>
+                                    <p>Lorem
+                                    </p>
+                                </div>
+                                <div class="Tab2Content" data-tab-content>
+                                    <p>Lorem ipsum
+                                    </p>
+                                </div>
+                                <div class="Tab3Content" data-tab-content>
+                                    <p>Lorem ipsum dolor
+                                    </p>
+                                </div>
+                                <div class="Tab4Content" data-tab-content>
+                                    <p>Lorem ipsum dolor sit amet consectetur
+                                    </p>
+                                </div>
+                            </td>
+                        </div>
                     </div>
                 </tr>
             </table>
