@@ -71,7 +71,7 @@ td.ending {
 
 /* Tabs */
 
-table.Tabs {
+table.tab {
     border: 2px solid black;
     background-color: grey;
     position: relative;
@@ -81,21 +81,33 @@ table.Tabs {
     width: 100%;
 }
 
-th.Tabs {
+th.tab {
     font-size: 25px;
 }
 
-th.Tabs:hover {
+th.tab:hover {
     border-right: 2px solid black;
     border-left: 2px solid black;
     background-color: #05bcfe;
     cursor: pointer;
 }
 
+.tab.active {
+    background-color: green;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
 
 /* Info (Container Content) */
 
-table.Info {
+table.info {
     border: 2px solid black;
     border-top: none;
     background-color: grey;
@@ -104,28 +116,14 @@ table.Info {
     width: 100%;
 }
 
-div.Info {
+div.info {
     border: 50px;
     height: 100%;
 }
 
-td.Info {
+td.info {
     font-size: 20px;
     height: 500px;
-}
-
-.Tab1Content {
-    display: none;
-}
-
-.Tab2Content {
-    display: none;
-}
-
-.Tab3Content {
-    display: none;
-}
-
-.Tab4Content {
-    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
