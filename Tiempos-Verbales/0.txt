@@ -1,4 +1,4 @@
-<table>
+<table class="verbs">
                                         <tr>
                                             <th>El Infinito</th>
                                             <th>YO</th>
@@ -9,93 +9,93 @@
                                             <th>Ellos/Ellas/Ustedes</th>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                         <tr>
-                                            <td>Hablar</td>
-                                            <td>YO</td>
-                                            <td>TÚ</td>
-                                            <td>Él/Ella/Usted</td>
-                                            <td>Nosotros</td>
-                                            <td>Vosotros</td>
-                                            <td>Ellos/Ellas/Ustedes</td>
+                                            <td class="verbs">Hablar</td>
+                                            <td class="verbs">YO</td>
+                                            <td class="verbs">TÚ</td>
+                                            <td class="verbs">Él/Ella/Usted</td>
+                                            <td class="verbs">Nosotros</td>
+                                            <td class="verbs">Vosotros</td>
+                                            <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                     </table>
