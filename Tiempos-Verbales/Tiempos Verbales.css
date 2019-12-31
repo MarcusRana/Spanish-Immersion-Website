@@ -114,24 +114,23 @@ table.info {
     margin: 0;
     margin-top: 0px;
     width: 100%;
-    height: 1000%;
     padding-top: 1px;
 }
 
-h3.irregular-1 {
-    width: 100%;
-    margin-top: 10px;
-    text-align: center;
-}
-
-h3.irregular-2 {
-    text-align: center
-}
-
+table.verb,
 table.verbs {
     float: left;
     width: 20%;
     margin-left: 10%;
+    margin-top: 2%;
+}
+
+h3.regular,
+h3.irregular-1,
+h3.irregular-2,
+h3.irregular-3 {
+    margin: 20px;
+    text-align: center;
 }
 
 div.info {
@@ -139,8 +138,13 @@ div.info {
     height: 100%;
 }
 
-div.irregular-1 {
-    border: 1px solid black;
+div.irregular-1,
+div.irregular-2,
+div.irregular-3 {
+    position: static;
+    float: left;
+    width: 100%;
+    margin: 20px 0 20px 0;
 }
 
 td.info {
@@ -148,15 +152,18 @@ td.info {
     height: 1000px;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 0;
 }
 
+td.verb,
 td.verbs {
     text-align: center;
     border-bottom: 1px solid black;
-    /* padding: 2px; */
+    padding: 2px;
     width: 50%;
 }
 
+th.verb,
 th.verbs {
     border-bottom: 1px solid black;
 }

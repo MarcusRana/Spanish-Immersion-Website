@@ -99,3 +99,178 @@
                                             <td class="verbs">Ellos/Ellas/Ustedes</td>
                                         </tr>
                                     </table>
+
+
+
+                                            <div>
+                                                <h3 class="regular">Verbos Regulares</h3>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Hablar</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">hablo</td>
+                                                        <td class="verb">somos</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">eres</td>
+                                                        <td class="verb">sois</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">es</td>
+                                                        <td class="verb">son</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Beber</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Escribir</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Subir</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Cantar</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Manejar</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table><table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Comer</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Abrir</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Caminar</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                                <table class="verb">
+                                                    <tr>
+                                                        <th class="verb" colspan="2">Correr</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Yo</td>
+                                                        <td class="verb">Nosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">Tú</td>
+                                                        <td class="verb">Vosotros</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="verb">El, Ella, Usted</td>
+                                                        <td class="verb">Ellos, Ellas, Ustedes</td>
+                                                    </tr>
+                                                </table>
+                                            </div>                                   
