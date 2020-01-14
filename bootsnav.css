@@ -16,6 +16,7 @@ Last update : 2016-10-19
 .navbar-nav {
     top: 2%;
     position: fixed;
+    left: 7.3%;
 }
 
 .collapse.navbar-collapse {
@@ -656,7 +657,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
         text-align: left;
         padding: 5px 0;
         display: block;
-        width: 200%;
+        width: 177px;
         margin-bottom: 0;
         border-bottom: none;
         color: #6f6f6f;
@@ -904,6 +905,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
         padding: 5px 15px;
         color: #6f6f6f;
         border: none;
+        width: 177px;
     }
     nav.bootsnav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu ul.dropdown-menu {
         padding-left: 15px;
