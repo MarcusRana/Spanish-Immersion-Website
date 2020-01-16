@@ -1,12 +1,12 @@
 <table class="verbs">
                                         <tr>
-                                            <th>El Infinito</th>
-                                            <th>YO</th>
-                                            <th>TÚ</th>
-                                            <th>Él/Ella/Usted</th>
-                                            <th>Nosotros</th>
-                                            <th>Vosotros</th>
-                                            <th>Ellos/Ellas/Ustedes</th>
+                                            <th class="verbs">El Infinitivo</th>
+                                            <th class="verbs">YO</th>
+                                            <th class="verbs">TÚ</th>
+                                            <th class="verbs">Él/Ella/Usted</th>
+                                            <th class="verbs">Nosotros</th>
+                                            <th class="verbs">Vosotros</th>
+                                            <th class="verbs">Ellos/Ellas/Ustedes</th>
                                         </tr>
                                         <tr>
                                             <td class="verbs">Hablar</td>

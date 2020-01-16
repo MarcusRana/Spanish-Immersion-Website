@@ -23,9 +23,7 @@ body {
 
 Table.header {
     align-content: center;
-    /* position: absolute; */
     margin-top: 30px;
-    /* margin-bottom: 30px; */
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
@@ -40,12 +38,13 @@ th.header {
 
 /* Conjugation Tables */
 
-table.table-1,
-table.table-2,
-table.table-3 {
-    float: left;
+table.table {
+    align-content: center;
     width: 30%;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid black;
 }
 
@@ -114,10 +113,27 @@ table.info {
     margin: 0;
     margin-top: 0px;
     width: 100%;
+    padding-top: 1px;
 }
 
+table.verb,
 table.verbs {
-    margin: auto;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+table.list {
+    padding: 10px;
+}
+
+h3.regular,
+h3.irregular-1,
+h3.irregular-2,
+h3.irregular-3 {
+    margin: 20px;
+    text-align: center;
 }
 
 div.info {
@@ -125,14 +141,36 @@ div.info {
     height: 100%;
 }
 
-td.info {
-    font-size: 20px;
-    height: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
+div.irregular-1,
+div.irregular-2,
+div.irregular-3 {
+    position: static;
+    float: left;
+    width: 100%;
+    margin: 20px 0 20px 0;
 }
 
+td.info {
+    font-size: 20px;
+    height: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+td.verb,
 td.verbs {
     text-align: center;
-    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2px;
+    width: 50%;
+}
+
+th.verb,
+th.verbs {
+    border-bottom: 1px solid black;
+}
+
+ul.list {
+    list-style-type: none;
 }
