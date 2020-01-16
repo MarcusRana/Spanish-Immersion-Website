@@ -14,9 +14,11 @@ Last update : 2016-10-19
 =================================*/
 
 .navbar-nav {
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
     top: 2%;
     position: fixed;
-    left: 7.3%;
 }
 
 .collapse.navbar-collapse {
