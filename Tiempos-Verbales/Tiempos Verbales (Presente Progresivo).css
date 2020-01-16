@@ -23,9 +23,7 @@ body {
 
 Table.header {
     align-content: center;
-    /* position: absolute; */
     margin-top: 30px;
-    /* margin-bottom: 30px; */
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
@@ -40,12 +38,22 @@ th.header {
 
 /* Conjugation Tables */
 
-table.table-1,
-table.table-2,
-table.table-3 {
+table.table-1 {
     float: left;
     width: 30%;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 10%;
+    border: 2px solid black;
+}
+
+table.table-2 {
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 15%;
     border: 2px solid black;
 }
 

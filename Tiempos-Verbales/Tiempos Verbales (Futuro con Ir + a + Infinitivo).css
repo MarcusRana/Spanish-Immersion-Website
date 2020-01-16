@@ -23,9 +23,7 @@ body {
 
 Table.header {
     align-content: center;
-    /* position: absolute; */
     margin-top: 30px;
-    /* margin-bottom: 30px; */
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
@@ -40,12 +38,13 @@ th.header {
 
 /* Conjugation Tables */
 
-table.table-1,
-table.table-2,
-table.table-3 {
-    float: left;
+table.table {
+    align-content: center;
     width: 30%;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid black;
 }
 
@@ -125,6 +124,10 @@ table.verbs {
     margin-top: 2%;
 }
 
+table.list {
+    padding: 10px;
+}
+
 h3.regular,
 h3.irregular-1,
 h3.irregular-2,
@@ -166,4 +169,8 @@ td.verbs {
 th.verb,
 th.verbs {
     border-bottom: 1px solid black;
+}
+
+ul.list {
+    list-style-type: none;
 }
