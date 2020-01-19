@@ -15,6 +15,7 @@ nav.navbar.bootsnav ul.nav>li {
 }
 
 nav.navbar.bootsnav ul.nav>li>a {
+    font-size: 100%;
     padding: 10px 20px;
     border-radius: 0;
     color: #fdefcf;
