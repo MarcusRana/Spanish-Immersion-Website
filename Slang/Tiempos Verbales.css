@@ -1,0 +1,169 @@
+/* Whole page */
+
+html {
+    height: 100%;
+}
+
+
+/* Body */
+
+body {
+    background: #303030;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+}
+
+
+/* Title */
+
+#title {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+Table.header {
+    align-content: center;
+    /* position: absolute; */
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background: grey;
+    border: 2px solid black;
+}
+
+th.header {
+    font-size: 30px;
+}
+
+
+/* Conjugation Tables */
+
+table.table-1,
+table.table-2,
+table.table-3 {
+    float: left;
+    width: 30%;
+    margin: 30px;
+    border: 2px solid black;
+}
+
+th.ending {
+    font-size: 25px;
+}
+
+td.ending {
+    font-size: 20px;
+}
+
+.ending {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: grey;
+    width: 250px;
+}
+
+
+/* Information Section */
+
+
+/* Tabs */
+
+table.tab {
+    border: 2px solid black;
+    background-color: grey;
+    position: relative;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+th.tab {
+    font-size: 25px;
+}
+
+th.tab:hover {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    background-color: #05bcfe;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: green;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+
+/* Info (Container Content) */
+
+table.info {
+    border: 2px solid black;
+    border-top: none;
+    background-color: grey;
+    margin: 0;
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 1px;
+}
+
+table.verb,
+table.verbs {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+h3.regular,
+h3.irregular-1,
+h3.irregular-2,
+h3.irregular-3 {
+    margin: 20px;
+    text-align: center;
+}
+
+div.info {
+    border: 50px;
+    height: 100%;
+}
+
+div.irregular-1,
+div.irregular-2,
+div.irregular-3 {
+    position: static;
+    float: left;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+td.info {
+    font-size: 20px;
+    height: 1000px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+td.verb,
+td.verbs {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 2px;
+    width: 50%;
+}
+
+th.verb,
+th.verbs {
+    border-bottom: 1px solid black;
+}
