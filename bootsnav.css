@@ -14,9 +14,11 @@ Last update : 2016-10-19
 =================================*/
 
 .navbar-nav {
+    left: auto;
+    width: 200vh;
+    transform: translatex(0%);
     top: 2%;
     position: fixed;
-    left: 7.3%;
 }
 
 .collapse.navbar-collapse {
@@ -1224,7 +1226,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
         overflow-y: auto !important;
         overflow-x: hidden !important;
         display: block;
-        background: #fff;
+        background: black;
         z-index: 99;
         width: 280px;
         height: 100% !important;
@@ -1241,6 +1243,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
         left: 0;
     }
     nav.navbar.bootsnav.navbar-mobile ul.nav {
+        left: 150px;
         width: 293px;
         padding-right: 0;
         padding-left: 15px;
@@ -1254,11 +1257,13 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
         padding-bottom: 15px !important;
     }
     nav.navbar.bootsnav.navbar-mobile ul.nav ul.dropdown-menu .col-menu .title {
+        color: white;
         padding-right: 30px !important;
         padding-top: 13px !important;
         padding-bottom: 13px !important;
     }
     nav.navbar.bootsnav.navbar-mobile ul.nav ul.dropdown-menu .col-menu ul.menu-col li a {
+        color: white;
         padding-top: 13px !important;
         padding-bottom: 13px !important;
     }

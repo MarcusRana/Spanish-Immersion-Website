@@ -14,7 +14,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script src="bootsnav.js"></script>
@@ -23,123 +22,7 @@
 
     <script src="https://kit.fontawesome.com/f226bc73bb.js" crossorigin="anonymous"></script>
 
-
-    <style>
-        body {
-            background-size: cover;
-            overflow-x: hidden;
-            padding: 15px 25px 15px;
-        }
-        
-        nav.navbar.bootsnav {
-            border: none;
-            background: none;
-            margin-bottom: 150px;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li {
-            margin-right: 20px;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li>a {
-            padding: 10px 20px;
-            border-radius: 0;
-            color: #fdefcf;
-            text-transform: uppercase;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            position: relative;
-            transition: all 0.3s ease 0s;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li.dropdown>a {
-            padding: 10px 30px 10px 15px;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li>a:hover,
-        nav.navbar.bootsnav ul.nav>li.on> {
-            color: #fdefcf;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li>a>span:before {
-            content: "";
-            width: 0;
-            height: 3px;
-            background: #fdefcf;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            z-index: -1;
-            transition: all 0.3s ease 0s;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li:hover>a>span:before {
-            width: 50%;
-            animation: bounce 1.5s 0.3s ease-out infinite;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li.active>a>span:before,
-        nav.navbar.bootsnav ul.nav>li.on>a>span:before {
-            width: 50%;
-            left: 25%;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            margin: 0 0 0 7px;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li.dropdown>ul {
-            top: 120%;
-            transition: all 0.8s ease 0s;
-        }
-        
-        nav.navbar.bootsnav ul.nav>li.dropdown.on>ul {
-            top: 110%;
-        }
-        
-        .dropdown-menu.multi-dropdown {
-            position: absolute;
-            left: -100% !important;
-        }
-        
-        nav.navbar-bootsnav li.dropdown ul.dropdown-menu {
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            border: none;
-            border-radius: 20px;
-        }
-        
-        nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content li {
-            font-size: 14px;
-            color: white;
-        }
-        
-        nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title {
-            font-size: 16px;
-            font-weight: bold;
-            color: #1a4b6d;
-        }
-        
-        @keyframes boucne {
-            0% {
-                left: 0;
-            }
-            48% {
-                left: 50%;
-            }
-            50% {
-                left: 50%;
-            }
-            98% {
-                left: 0%;
-            }
-            100% {
-                left: 0%;
-            }
-        }
-    </style>
-
+    <link rel="stylesheet" href="bootstrapstyle.css">
 </head>
 
 <body>
@@ -158,8 +41,8 @@
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-menu">
                             <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-                                <li class="active"><a href="#" data-hover="Home">Principal <span></span></a></li>
-                                <li><a href="About\AboutUs.html" data-hover="About">Sobre Nosotros <span></span></a></li>
+                                <li class="active"><a href="indice.html" data-hover="Home">Principal <span></span></a></li>
+                                <li><a href="Sobre Nosotros.html" data-hover="About">Sobre Nosotros <span></span></a></li>
                                 <li><a href="#" data-hover="Portfolio">Supporta Nos! <span></span></a></li>
                                 <li><a href="#" data-hover="Portfolio">Diccionario <span></span></a></li>
                                 <li class="dropdown megamenu-fw">
@@ -253,8 +136,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="#" data-hover="Tutoring">Tutoreando! <span></span></a></li>
-                                <li><a href="#" data-hover="Contact">Contacta Nosostros! <span></span></a></li>
+                                <li><a href="Tutoring.html" data-hover="Tutoring">Tutoria! <span></span></a></li>
+                                <li><a href="contact.html" data-hover="Contact">Contacta Nosostros! <span></span></a></li>
                                 <li class="dropdown">
                                     <a href="#" id="Language" class="dropdown-toggle" data-toggle="dropdown" data-hover="Shortcodes">Language <span></span></a>
                                     <ul class="dropdown-menu animated">
@@ -292,25 +175,28 @@
                 </p>
             </div>
             <br/>
-            <div class='Home-Text'>
-                <h1>¡Maneras technicas y faciles!</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, quidem nemo error a exercitationem nihil eligendi. Maxime labore consequatur aliquam consequuntur odio quia nihil itaque, id, modi, voluptates in Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Ducimus natus quibusdam eius iusto. Debitis ad impedit explicabo aliquam et odit tempora, blanditiis nostrum accusantium inventore, numquam exercitationem perferendis placeat atque! Lorem, ipsum dolor
-                    sit amet consectetur adipisicing elit. Officia, deserunt! Perspiciatis aliquid quam repudiandae laborum culpa, provident rem tenetur alias esse vel quos voluptatibus pariatur similique maiores saepe facilis nulla!Lorem
-                </p>
+            <div class=Home-Image1>
+                <img src='students.jpg'>
             </div>
             <br/>
             <div class='Home-Text'>
-                <h1>¡Diversion en aprendiendo!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequatur iste tempore, at explicabo ex quos voluptate impedit libero excepturi aperiam delectus laboriosam cum eveniet nulla ipsum optio, fugit consequuntur?Lorem ipsum,
-                    dolor sit amet consectetur adipisicing elit. Explicabo enim nobis corporis. Eveniet mollitia ex et ipsam, harum quibusdam suscipit magni id architecto, deleniti at perferendis quaerat cumque? Obcaecati, Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Exercitationem est perspiciatis maiores repudiandae ullam vero voluptates tempore, ea provident dolores cumque incidunt, corrupti ipsa illo quas quidem quis iusto adipisci! Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. A fugit officiis sapiente ea, ipsa, ab omnis eveniet suscipit mollitia sit, atque maxime obcaecati! Quidem officia architecto sit modi magni placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                    asperiores praesentium iste nobis facere consectetur voluptatibucing elit. Exercitationem est perspiciatis maiores repudiandae ullam vero voluptates tempore, ea provident dolores cumque incidunt, corrupti ipsa illo quas quidem quis
-                    iusto adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. A fugit officiis sapiente ea, ipsa, ab omnis eveniet suscipit mollitia sit, atque maxime obcaecati! Quidem officia architecto sit modi magni placeat! Lorem ipsum
-                    dolor sit amet consectetur adipisicing elit. Aliquid asperiores praesentium iste nobis facere consectetur voluptatibucing elit. Exercitationem est perspiciatis maiores repudiandae ullam vero voluptates tempore, ea provident dolores
-                    cumque incidunt, corrupti ipsa illo quas quidem quis iusto adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. A fugit officiis sapiente ea, ipsa, ab omnis eveniet suscipit mollitia sit, atque maxime obcaecati! Quidem
-                    officia architecto sit modi magni placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid asperiores praesentium iste nobis facere consectetur voluptatibu
+                <h1>¡Maneras technicas y faciles!</h1>
+                <p>
+                    Hay muchos differentes maneras de aprender usando Puentes, como nuestro servicio de tutoreando y nuestros paginas de grammatica para aprender. Nuestro servicio de tutoreando es totalmente gratis, solo necesitas una cuenta y puedes recibir ayuda con todos
+                    sus tareas de espanol. Hay mas detalles en la pagina llamada "Tutoreando" por mas informacion. Uno de los mas faciles maneras de aprender en nuestro sitio son los paginas de grammatica. Estos son paginas explicando varias differentes
+                    tiempos para mejorar su Español. Son creado por nosotros con nuestro experiencia de 12+ anos y son corregidos por una profesora de nivel colegio y nuestra maestra de espanol quien es nativa en espanol. Tenemos muchos recursos, explicaciones
+                    y ejemplos en cada una de las paginas para ayudarte donde necesitas. Hay un tiempo verbal que no hemos creado? Mandanos un correo y trataremos de crear uno para usted.
+                </p>
+            </div>
+            <br/>
+            <div class=Home-Image2>
+                <img src='spanish_teacher.jpg'>
+            </div>
+            <br/>
+            <div class='Home-Text'>
+                <h1>Aprendiendo hecho clara!</h1>
+                <p>Queremos que entiendes espanol, este es uno de nuestros misiones mas importante para nuestro sitio. Para creer un mas clara medioambiente, usamos muchos differentes maneras de explicar la idioma. Los videos son escojidos directamente basado
+                    en cual claro pueden ser, para que si necesitas una manera de aprender mas visual tenemos recursos para usted. Tambien nuestros ejemplos son interesantes, para que no aburres de aprender y diviertas mas.
                 </p>
             </div>
         </div>
