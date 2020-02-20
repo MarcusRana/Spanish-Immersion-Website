@@ -8,8 +8,7 @@ html {
 /* Body */
 
 body {
-    background: #303030;
-    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    background: midnightblue;
 }
 
 
@@ -29,7 +28,7 @@ Table.header {
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
-    background: grey;
+    background: lightgray;
     border: 2px solid black;
 }
 
@@ -61,7 +60,7 @@ td.ending {
     text-align: center;
     padding: 15px;
     border: 2px solid black;
-    background-color: grey;
+    background-color: lightgray;
     width: 250px;
 }
 
@@ -73,7 +72,7 @@ td.ending {
 
 table.tab {
     border: 2px solid black;
-    background-color: grey;
+    background-color: lightgray;
     position: relative;
     margin: 0;
     margin-top: 30px;
@@ -88,12 +87,12 @@ th.tab {
 th.tab:hover {
     border-right: 2px solid black;
     border-left: 2px solid black;
-    background-color: #05bcfe;
+    background-color: darkgray;
     cursor: pointer;
 }
 
 .tab.active {
-    background-color: green;
+    background-color: darkgray;
 }
 
 [data-tab-content] {
@@ -110,7 +109,7 @@ th.tab:hover {
 table.info {
     border: 2px solid black;
     border-top: none;
-    background-color: grey;
+    background-color: lightgray;
     margin: 0;
     margin-top: 0px;
     width: 100%;
@@ -166,4 +165,8 @@ td.verbs {
 th.verb,
 th.verbs {
     border-bottom: 1px solid black;
+}
+
+.Slang_Word {
+    border: 3px solid gray;
 }
