@@ -36,8 +36,9 @@
                     <nav class="navbar navbar-default navbar-mobile bootsnav on">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
+                                <i class="fa fa-bars"></i>
+                            </button>
+
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-menu">
                             <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
@@ -150,7 +151,19 @@
                                         <li><a value="Español" href='indice.html'>Español</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" data-hover="Register">Register <span></span></a></li>
+                                <!-- <li><a href="#" data-hover="Register">Register <span></span></a></li> -->
+                                <div class="profile-container">
+                                    <button href="#" class="profile-dropdown" data-toggle="dropdown"><img src="..\Images\guest-user.jpg" class="profile-picture"></button>
+                                    <div class="profile">
+                                        <ul class="profile-list">
+                                            <li><a href="#">Your Profile</a></li>
+                                            <li><a href="#">insert</a></li>
+                                            <li><a href="#">insert</a></li>
+                                            <li><a href="..\Construction\index.php" class="login-button">Login</a></li>
+                                            <li><a href="#" class="logout-button">Logout</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </ul>
                         </div>
                     </nav>
@@ -167,7 +180,7 @@
             <div class='Home-Text'>
                 <div class='MainPage'>
                     <br>
-                    <img src='luke Logo 4.0.png'>
+                    <img src='..\images\luke Logo 4.0.png'>
                 </div>
 
                 <h1 id="HeaderOne">¡Hola and Welcome to Puentes!</h1>
