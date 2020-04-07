@@ -2,8 +2,6 @@
 
 <link rel="stylesheet" href="../CSS/bootsnav.css">
 
-<link rel="stylesheet" href="../CSS/main.css">
-
 <link rel="stylesheet" href="../CSS/randomstyle.css">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,3 +17,5 @@
 <script src="https://kit.fontawesome.com/f226bc73bb.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="../CSS/bootstrapstyle.css">
+
+<link rel="stylesheet" href="../CSS/main.css">
