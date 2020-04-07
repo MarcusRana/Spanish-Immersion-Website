@@ -224,12 +224,6 @@ body {
     font-size: 56px;
 }
 
-form {
-    position: fixed;
-    right: 10%;
-    top: 20%;
-}
-
 .customSelect select {
     width: 100%;
     height: 100%;

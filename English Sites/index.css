@@ -115,14 +115,14 @@ body {
     background: linear-gradient(135deg, #05bcfe 0%, #05bcfe 100%);
 }
 
-.Home-Text h2 {
+.Paragraph-Box h2 {
     text-align: center;
     width: 100px;
     padding: 10px 50% 10px;
     font-size: 4em
 }
 
-.websites {
+.websites-footer {
     position: relative;
     top: 100%;
     left: 35%;
@@ -131,11 +131,11 @@ body {
     display: flex;
 }
 
-.websites li {
+.websites-footer li {
     list-style: none;
 }
 
-.websites li a {
+.websites-footer li a {
     display: block;
     position: relative;
     width: 50px;
@@ -150,70 +150,70 @@ body {
     transition: .5s;
 }
 
-.websites li a span {
+.websites-footer li a span {
     position: absolute;
     transition: transform .5s;
 }
 
-.websites li a span:nth-child(1),
-.websites li a span:nth-child(3) {
+.websites-footer li a span:nth-child(1),
+.websites-footer li a span:nth-child(3) {
     width: 100%;
     height: 2px;
     background: #262626
 }
 
-.websites li a span:nth-child(1) {
+.websites-footer li a span:nth-child(1) {
     top: 0;
     left: 0;
     transform-origin: right;
 }
 
-.websites li a:hover span:nth-child(1) {
+.websites-footer li a:hover span:nth-child(1) {
     transform: scaleX(0);
     transform-origin: left;
     transition: transform .5s;
 }
 
-.websites li a span:nth-child(3) {
+.websites-footer li a span:nth-child(3) {
     bottom: 0;
     left: 0;
     transform-origin: left;
 }
 
-.websites li a:hover span:nth-child(3) {
+.websites-footer li a:hover span:nth-child(3) {
     transform: scaleX(0);
     transform-origin: right;
     transition: transform .5s;
 }
 
-.websites li a span:nth-child(2),
-.websites li a span:nth-child(4) {
+.websites-footer li a span:nth-child(2),
+.websites-footer li a span:nth-child(4) {
     width: 2px;
     height: 100%;
     background: #262626
 }
 
-.websites li a span:nth-child(2) {
+.websites-footer li a span:nth-child(2) {
     top: 0;
     left: 0;
     transform: scale(0);
     transform-origin: bottom;
 }
 
-.websites li a:hover span:nth-child(2) {
+.websites-footer li a:hover span:nth-child(2) {
     transform: scale(1);
     transform-origin: top;
     transition: transform .5s;
 }
 
-.websites li a span:nth-child(4) {
+.websites-footer li a span:nth-child(4) {
     top: 0;
     right: 0;
     transform: scale(0);
     transform-origin: top;
 }
 
-.websites li a:hover span:nth-child(4) {
+.websites-footer li a:hover span:nth-child(4) {
     transform: scale(1);
     transform-origin: bottom;
     transition: transform .5s;
@@ -238,7 +238,7 @@ body {
     color: #ffff00;
 }
 
-.Home-Text {
+.Paragraph-Box {
     position: relative;
     background: #fae2cb;
     border-radius: 10px;
@@ -246,7 +246,7 @@ body {
     opacity: 90%;
 }
 
-.Home-Text p {
+.Paragraph-Box p {
     text-align: center;
     font-size: 23px;
     color: black;
@@ -256,7 +256,7 @@ body {
     transform-origin: center;
 }
 
-.Home-Text h1 {
+.Paragraph-Box h1 {
     text-align: center;
     position: relative;
     font-size: 56px;
