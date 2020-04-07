@@ -224,12 +224,6 @@ body {
     font-size: 56px;
 }
 
-form {
-    position: fixed;
-    right: 10%;
-    top: 20%;
-}
-
 .customSelect select {
     width: 100%;
     height: 100%;
@@ -273,4 +267,8 @@ form {
     margin-right: auto;
     border-radius: 10%;
     width: 75%;
+}
+
+.Registration-Form {
+    text-align: center;
 }

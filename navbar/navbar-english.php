@@ -1,3 +1,7 @@
+</br>
+</br>
+</br>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -19,7 +23,7 @@
                                 <li>
                                     <div class="row">
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Gramática Principiante</h6>
+                                            <h6 class="title">Level-1</h6>
                                             <h6 class="title">Novice-Low</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
@@ -33,7 +37,7 @@
                                         </div>
                                         <!-- end col-3 -->
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Gramática Intermedio</h6>
+                                            <h6 class="title">Level-2</h6>
                                                 <h6 class="title">Intermediate-Low</h6>
                                                 <div class="content">
                                                     <ul class="menu-col">
@@ -49,7 +53,7 @@
                                         </div>
                                         <!-- end col-3 -->
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Gramática Avanzado</h6>
+                                            <h6 class="title">Level-3</h6>
                                             <h6 class="title">Advanced-Low</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
@@ -86,6 +90,7 @@
                                                     <li><a href="Tiempos-Verbales\IH;Se Voz Passivo.html">Se Voz Passivo</a></li>
                                                     <li><a href="Tiempos-Verbales\IH;Estar + Past Participle.html">Estar + Past Participle</a></li>
                                                     <li><a href="Tiempos-Verbales\IH;Condicional Simple.html">Condicional Simple</a></li>
+                                                    <li><br></li>
                                                 </ul>
                                             </div>
                                         </div>

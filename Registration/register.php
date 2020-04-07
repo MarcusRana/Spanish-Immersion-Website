@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Register Here</title>
     <?php
-        require "links.php";
+        require "../CSS/links.php";
     ?>
 </head>
 <?php
@@ -13,12 +13,18 @@ $error=NULL;
 ?>
 <body>
     <?php
-        require "..\Construction\\navbar\\navbar-english.php";
+        require "../navbar/navbar-english.php";
     ?>
-    <form method="POST" action="http://localhost/In%20Construction/email.php">
-        <input type="EMAIL" name="e" required/>
-        <input type="submit" name="submit">
-    </form>
+    <div class='Paragraph-Box'>
+        <h1>Hello! You can register here:</h1>
+        <form method="POST" action="../Registration/email.php" class='Registration-Form'>
+            <input type="TEXT" name="u" required/>
+            <input type="PASSWORD" name="p" required/>
+            <input type="PASSWORD" name="p2" required/>
+            <input type="EMAIL" name="e" required/>
+            <input type="submit" name="submit">
+        </form>
+    </div>
     <?php
 
 ?>

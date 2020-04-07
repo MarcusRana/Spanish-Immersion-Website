@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="../CSS/bootsnav.css">
+
 <link rel="stylesheet" href="../CSS/main.css">
 
 <link rel="stylesheet" href="../CSS/randomstyle.css">
@@ -17,5 +19,3 @@
 <script src="https://kit.fontawesome.com/f226bc73bb.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="../CSS/bootstrapstyle.css">
-
-<link rel="stylesheet" href="../CSS/bootsnav.css">

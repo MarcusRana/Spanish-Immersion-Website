@@ -11,7 +11,7 @@
     <br>
     <br>
     <?php
-        include '..\navbar\navbar-english.php';
+        require "../CSS/links.php"
     ?>
 
         <div class='Title'>
